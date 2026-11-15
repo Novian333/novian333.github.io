@@ -119,17 +119,15 @@ main {
   text-align: left;
   font-size: 1.2em;
 }
-
 #contact {
   width: 100%;
-  min-height: 1000px;
+  height: 1000px;
   background: #444;
   color: #bbb;
-  padding: 175px 100px 50px;
+  padding-bottom: 50px 100px;
+  padding-top: 175px;
   border-bottom: 1px solid #000;
-  text-align: center;
 }
-
 #contact h1 {
   text-align: left;
   font-size: 3em;
