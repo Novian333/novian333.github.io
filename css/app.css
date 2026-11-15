@@ -10,12 +10,14 @@ body {
   background: #444;
 }
 header {
+position: relative;
 width: 100%;
 height: 700px;
 background: url('../assets/images/headerBkg.jpg');
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+background-color: #333;
 }
 #logo {
   width: 120px;
@@ -32,8 +34,8 @@ nav {
   padding-top: 13px;
   font-size: 1.6em;
   border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;dd
-  position: absolute;
+  border-bottom: 1px solid #fff;
+  position: relative;
 }
  a {
   font-weight: 700;
