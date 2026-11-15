@@ -143,24 +143,15 @@ main {
   margin-bottom: 20px;
   color:#444
 }
-.contactForm label {
-  display: block;
-  margin-top: 15px;
-  font-weight: bold;
-}
 .contactForm input,
-.contactForm textarea {
- width: 100%; 
- padding: 10;
- margin-top: 5px;
-border: 1px solid #ccc;
-border-radius: 8px;
-font-size: 1rem;
-box-sizing: border-box;
-}
-.contactForm textarea {
-  height: 120px;
-  resize: vertical;
+contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid#ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
 }
 .contactForm button {
   width: 100%;
