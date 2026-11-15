@@ -14,6 +14,15 @@ width: 100%;
 height: 700px;
 background: url('../assets/images/headerBkg.jpg');
 background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+#logo {
+  width: 120px;
+  position: absolute;
+  z-index: 7;
+  top: 7px;
+  left: 58px;
 }
 nav {
   width: 100%;
@@ -23,9 +32,10 @@ nav {
   padding-top: 13px;
   font-size: 1.6em;
   border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #fff;dd
+  position: absolute;
 }
-a {
+ a {
   font-weight: 700;
   margin: 0 23px;
   color: #eee;
