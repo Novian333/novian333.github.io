@@ -100,7 +100,25 @@ main {
   text-align: left;
   font-size: 1.2em;
 }
-
+#skills {
+  width: 100%;
+  height: 1000px;
+  background: #bbb;
+  color: #444;
+  padding: 50px 100px;
+  padding-top: 175px;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+#skills > h1 {
+  text-shadow: 3px 3px 7px #000;
+  text-align: left;
+  font-size: 3em;
+}
+#skills > p {
+  text-align: left;
+  font-size: 1.2em;
+}
 footer {
   width: 100%;
   height: 150px;
